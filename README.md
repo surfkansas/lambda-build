@@ -31,7 +31,7 @@ The resulting zip file will be called `lambda-build.zip`
 For this example, we will assume that out input folder is `c:\lambdabuild\in` and out output folder is `c:\lambdabuild\out`.
 
 ```
-docker run -v c:\lambdabuild\in:/build/in:ro -v c:\lambdabuild\out:/build/out surfkansas/lambda-build
+docker run -v c:/lambdabuild/in:/build/in:ro -v c:/lambdabuild/out:/build/out surfkansas/lambda-build
 ```
 
 This will produce a deployable Lambda zip file at `c:\lambdabuild\out\lambda-build.zip`.
